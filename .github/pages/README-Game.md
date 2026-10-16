@@ -2,6 +2,138 @@
 
 本版面放的都是游戏，起始于2025年1月4号
 
+### 2026 年 10 月 16 号添加
+
+#### BogerHou - [Github](https://github.com/BogerHou)
+* :white_check_mark: [AI Browser Games](https://aibrowsergames.net/)：浏览器游戏发现目录，整理 100 款第三方游戏，支持按操作方式、节奏和人数筛选，其中 4 款附有创作者来源支持的 AI 辅助制作标注 - [更多介绍](https://aibrowsergames.net/about/)
+
+### 2026 年 10 月 15 号添加
+
+#### Qizhen Ruan - [Github](https://github.com/ruanqizhen)
+* :white_check_mark: [怀旧游戏合集](https://games.qizhen.xyz)：7 款网页小游戏合集，含 Galaga 风格太空射击，浏览器即开即玩
+
+#### Masker99(深圳) - [Github](https://github.com/Masker99)
+* :white_check_mark: [Abuja Life Game](https://abujalifegame.com/)：Abuja Life 非官方攻略与工具站（免费），提供新手指南、游戏地点查询、出租车费用估算和预算计算器，并区分 Abuja Life 与 Lagos Life 里同名城市的两个版本，另附官方游戏入口，无需注册
+
+### 2026 年 10 月 14 号添加
+
+#### kuxiaowo - [Github](https://github.com/kuxiaowo)
+* :clock8: [KSA 简体中文汉化预览](https://github.com/kuxiaowo/KSA-CHINESE/releases/tag/v0.1.2)：Kitten Space Agency 的部分简体中文汉化 Mod，提供中文字体、译文和便携启动器，不替换原游戏文件；仅适配游戏 2026.10.13.5602，需 .NET 10 x64 Runtime，未覆盖文本回退英文 - [源码与安装说明](https://github.com/kuxiaowo/KSA-CHINESE)
+* :white_check_mark: [AC → Forza 遥测桥](https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge/releases/tag/v1.1.0)：Windows 赛车仪表盘适配工具，读取 Assetto Corsa 1 遥测并转换为 Forza Horizon Dash UDP 格式，让兼容仪表盘显示速度、转速、挡位等数据；提供可直接运行的发布包，需配合原游戏及兼容接收端使用 - [源码与使用说明](https://github.com/kuxiaowo/AC-Forza-Telemetry-Bridge)
+
+### 2026 年 10 月 10 号添加
+
+#### MarchBeta2087 - [Github](https://github.com/MarchBeta2087)
+* :white_check_mark: [失控 AI 增量](https://github.com/MarchBeta2087/uncontrolled-ai-incremental)：以"失控 AI 吞掉整个宇宙"为主题的增量游戏，从 UTC 2028-01-01 起步投入研发、加速扩张直至耗尽可观测宇宙的资源，再撕开因果闭环裂缝把时间线回卷到起点，带着时间晶体进入下一周目，周目越来越快 - [源码](https://github.com/MarchBeta2087/uncontrolled-ai-incremental)
+
+### 2026 年 10 月 7 号添加
+
+#### fisher-byte - [Github](https://github.com/fisher-byte)
+* :white_check_mark: [17-0 Football](https://17-0football.com/)：英文浏览器橄榄球选秀小游戏，组建 9 槽阵容模拟 17 周赛季、冲击 17-0 全胜，每日挑战共用 seed 冲排行榜，无需注册 - [GitHub 仓库](https://github.com/fisher-byte/17-0)
+
+### 2026 年 10 月 6 号添加
+
+#### Bill Chan(香港) - [Github](https://github.com/billpwchan)
+* :white_check_mark: [霓虹天頂 Neon Zenith](https://zenith.billpwchan.art)：浏览器里的 3D 赛博九龙，从庙街夜市开车出发，可以一路飞上 1418 米高的塔顶，9373 栋楼都能降落；地面的九巴和的士靠左行驶、遇红灯会停，另有 4 个计时赛和 31 块隐藏碎片，无需下载和注册 - [GitHub 仓库](https://github.com/billpwchan/neon-zenith)
+
+### 2026 年 9 月 22 号添加
+
+#### sam ice(深圳) - [Github](https://github.com/sam-ice-star/steal-an-egg)
+* :white_check_mark: [Steal an Egg Wiki](https://stealanegg.gamehubs.wiki/)：Steal an Egg 非官方资料与攻略站，整理蛋、宠物、变异、速度、地形和通关进度，方便玩家随时查询
+
+### 2026 年 9 月 20 号添加
+
+#### wizcy - [Github](https://github.com/wizcy)
+* :white_check_mark: [旧境传说](https://backmir.org/)：中文复古单人动作 RPG，提供战士、法师、道士职业、地图探索与 Boss 挑战，可搭配随机装备词缀与套装；Mac/Windows 桌面浏览器游玩，无需注册，进度保存在本机浏览器 - [游戏攻略](https://backmir.org/guide/)
+
+### 2026 年 9 月 18 号添加
+
+#### LuKaka - [Github](https://github.com/Masker99)
+* :white_check_mark: [Over the Hill Wiki](https://overthehillwiki.com/)：Over the Hill 非官方游戏攻略与资料站，整理游戏玩法、车辆、地图、常见问题和实用指南，方便玩家快速查找相关信息
+* :white_check_mark: [Steal an Egg Predictor](https://stealaneggpredictor.com/)：Steal an Egg 非官方玩家工具与攻略站，提供蛋刷新时间预测、蛋和宠物资料以及相关游戏指南，帮助玩家更方便地查询和规划游戏进度
+
+### 2026 年 9 月 17 号添加
+
+#### the-beating-light-of-the-nail - [Github](https://github.com/the-beating-light-of-the-nail)
+* :white_check_mark: [停一刻](https://calm.tradershelf.com/)：给交易者的三分钟休息站，管不住手的时候按流程走：30 秒安顿 → 60-90 秒小游戏 → 60 秒收尾；十个 30-90 秒小游戏分三类（情绪降温 / 注意力切换 / 规则与冲动，含舒尔特方格、Stroop、Go/No-Go），亏损后想立刻做下一笔时有专门的高风险暂停流程，不显示行情不给建议，记录只存本机，无需注册
+* :white_check_mark: [万象中枢 WXHub](https://wxq.whatsyour.fun/)：《王者荣耀》王者万象棋一体化工具站，查卡、抄阵容、摆站位一个站搞定：85 英雄/78 装备/254 天赋/99 效果牌图鉴、64 套阵容一图流、拖拽站位编辑器（可导出 PNG）、禁阵营应对推演、Buff 词典与快速认卡，拼音首字母搜索，无需注册，数据来自官方卡牌库
+
+
+### 2026 年 9 月 14 号添加
+
+#### wqnlll - [Github](https://github.com/wqnlll)
+* :white_check_mark: [wqnlll 游戏中心](https://wqnlll.github.io)：免费在线小游戏合集（6 款原创游戏），免注册免下载、浏览器打开即玩，含用打砖块记 222 个英语单词的背单词游戏和红警风格 RTS
+
+### 2026 年 9 月 10 号添加
+
+#### Felicia - [Github](https://github.com/littlePig-zzf)
+* :white_check_mark: [Narinig Mo Ba? Fan Guide](https://narinigmoba.app/)：Narinig Mo Ba? 在线游玩与独立玩家攻略站（免费），提供安全下载、玩法、流程、剧情解析和移动端状态
+
+#### Kai - [Github](https://github.com/kairye)
+* :white_check_mark: [Concentration Games](https://concentrationgames.online/)：专注力 / 脑力小游戏合集（免费），免注册、免下载，主打 concentration games，含 Schulte 表、Dual N-Back、反应速度测试等工具页
+
+### 2026 年 9 月 9 号添加
+
+#### pandaupup(广州) - [Github](https://github.com/pandaupup)
+* :white_check_mark: [Gamepad Tester](https://gamepadtesteronline.org/)：游戏手柄测试与诊断工具（免费），可实时检测手柄按键、摇杆、扳机键和震动，并提供摇杆漂移、Circularity、Polling Rate、Latency、Button Mapping，以及 Xbox、PS5、Joy-Con、Switch Pro 等专项测试
+
+#### Felicia - [Github](https://github.com/littlePig-zzf)
+* :white_check_mark: [Block Skin Lab](https://www.blockskinlab.com/)：在线图片转 Minecraft 皮肤工具（免费），可将照片或作品转换为 64×64/128×128 皮肤，支持 Classic/Slim 手臂、2D/3D 预览、脸部预设和 8×8 像素编辑；图片全程在浏览器本地处理，无需注册
+
+#### the-beating-light-of-the-nail - [Github](https://github.com/the-beating-light-of-the-nail)
+* :white_check_mark: [海克斯小秘书](https://aramkit.cdqyfdbymn.me/)：《英雄联盟》海克斯大乱斗（ARAM Mayhem）攻略站，选人前查 173 位英雄的实时胜率排行、六神装、技能加点和银/金/棱彩强化符文推荐，三源数据每晚自动聚合，中英日韩等 12 种语言，打开即用无需注册
+
+### 2026 年 9 月 8 号添加
+
+#### pandaupup(广州) - [Github](https://github.com/pandaupup)
+* :white_check_mark: [BTD6 Paragon Calculator](https://btd6paragoncalculator.org/)：面向《Bloons TD 6》玩家的非官方 Paragon 计算工具，可计算 Paragon Degree、Power、Cash Slider、Sacrifices 和 Paragon Power Totems，并提供 Degree 表格及相关计算说明
+
+### 2026 年 9 月 7 号添加
+
+#### linrn5566 - [Github](https://github.com/linrn5566)
+* :white_check_mark: [Mimic Party Online](https://mimicparty.org)：听一段短声音，用自己的声音模仿它，再获得相似度评分；内置 10 个 Sound World，支持 Daily Challenge 和 Survival 等模式，录音和评分均在本地完成、声音不上传 — 浏览器即开即玩的免费声音模仿游戏
+
+#### firegomove(广东) - [Github](https://github.com/firegomove)
+* :white_check_mark: [PixelArtGame](https://pixelartgame.online/)：一款结合了像素艺术与轻松玩法的网页游戏。无需下载安装，打开即可游玩。游戏以复古像素画风为核心，配合轻快的背景音乐，营造出沉浸式的游戏体验。无论是怀旧玩家还是休闲爱好者，都能快速找到属于自己的乐趣
+
+#### hbwang76 - [Github](https://github.com/hbwang76)
+* :white_check_mark: [Blood of Dawnwalker Tools](https://bloodofdawnwalker.win)：The Blood of Dawnwalker 粉丝工具站，含 Vampire/Human 构建计算器、7 结局追踪器和 47 奖杯清单，浏览器直接使用，无需注册账号
+
+### 2026 年 8 月 28 号添加
+
+#### ethanethan(上海) - [Github](https://github.com/lianyixin)
+* :white_check_mark: [梁圣变阻器](https://liang-slider.havenai.online/)：AI 豪杰互动玩具站，用滑动变阻器六档境界研判各路 AI 大佬的成神数值，可送神火、砸神位、参与网友投票，也能上传人像创建自己的豪杰 — 已开源，可一键部署
+
+### 2026 年 8 月 21 号添加
+
+#### 863683348 - [Github](https://github.com/863683348)
+* :white_check_mark: [YiBoard](https://yiboardgame.com/?utm_source=cnindie&utm_medium=github)：浏览器里直接下的棋类平台，免费对真实 AI 引擎或好友下五子棋，无需账号、无需下载，从「九级」一路升到「九段」的 18 级天梯，中国象棋和围棋也已列入路线图
+
+### 2026 年 8 月 20 号添加
+
+#### zhoujun(深圳) - [Github](https://github.com/zhoujungis), [博客](https://zhoujungis.github.io/)
+* :white_check_mark: [方块世界 3D](https://block-world-3d.pages.dev/)：浏览器版体素沙盒游戏，自由挖掘和放置方块、建造建筑、冶炼、驱动红石电路、与村民互动，云存档自动同步 — 打开浏览器即玩
+
+### 2026 年 8 月 15 号添加
+
+#### terencexu01 - [Github](https://github.com/terencexu01)
+* :white_check_mark: [Wardogs Wiki](https://wardogs.wiki)：WARDOGS 游戏资料站，整理游戏机制、阵营、地图、武器、载具、攻略、更新与交互式对比
+
+### 2026 年 8 月 8 号添加
+
+#### s87343472 - [Github](https://github.com/s87343472)
+* :white_check_mark: [Daily Word Hunt](https://words.sagasu.art/)：每日更新的 Word Search 划词解谜小游戏，无需注册，提供主题系列与打印包，支持 Google 登录同步进度 - [源码](https://github.com/s87343472/daily-word-hunt)
+
+### 2026 年 8 月 2 号添加
+
+#### fastend(济南) - [Github](https://github.com/fastend)
+* :white_check_mark: [Palworldtoolbox](https://www.palworldtoolbox.com/)：Palworld 帕鲁图鉴与配种组合查询，含可交互世界地图
+
+### 2026 年 8 月 1 号添加
+
+#### Rain - [Github](https://github.com/wang1309)
+* :white_check_mark: [Minecraft Pixel Art Generator](https://minecraftpixel.app/)：将图片转换为我的世界风格像素画，支持导出 PNG、材料清单、.schematic 和 .litematica
+
 ### 2026 年 7 月 29 号添加
 
 #### zhoujungis - [Github](https://github.com/zhoujungis)

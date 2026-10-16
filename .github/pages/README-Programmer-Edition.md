@@ -16,6 +16,376 @@ Issue 和 PR 里偶尔有人提交一些不错的东西，但打开一看，不�
 程序员版开始于 2019 年 4 月 11 号, 主版面开始于 2018 年 3 月
 -->
 
+### 2026 年 10 月 16 号添加
+
+#### Tseka Luk(无锡) - [Github](https://github.com/TsekaLuk)
+* :white_check_mark: [Nebutra Sailor](https://github.com/Nebutra/Nebutra-Sailor)：源码公开的 SaaS 底座，`npx create-sailor@latest my-app` 一条命令生成 Next.js + Hono 网关、Better Auth 登录、Creem 与微信/支付宝收款、生成式 Postgres RLS 多租户的完整项目，空 .env 本地即可跑通，带 AGENTS.md 和 lint 护栏方便 Claude Code / Codex 接手；生成的项目为 MIT，主仓库 FSL-1.1-ALv2（两年后转 Apache-2.0） - [更多介绍](https://nebutra.com/sailor)
+
+### 2026 年 10 月 15 号添加
+
+#### didi_dev - [Github](https://github.com/wd9337812)
+* :white_check_mark: [BBAuto](https://bbauto.top)：面向联盟营销投放者的品牌词投放管理系统，连接品牌词研究、Google Ads 任务创建、访问换参与多联盟归因报表，支持 Agent/MCP 操作；需在自己的 VPS 部署并配置相关账户，按订阅使用，产品闭源
+
+#### ls-open - [Github](https://github.com/ls-open)
+* :white_check_mark: [claude-tuner](https://github.com/ls-open/claude-tuner)：专为 Claude Code 与 Claude Desktop (macOS) 打造的本地前缀缓存优化与工具精简网关，解决多轮对话缓存击穿（实测 DeepSeek 自动缓存命中率达 95%+）、并发工具顺序错位与 thinking 思考链丢失导致的 400 报错，附原生实时 WebUI 监控看板，零外部依赖，MIT 开源
+
+#### coffeecoproject - [Github](https://github.com/coffeecoproject)
+* :white_check_mark: [SmartCompact](https://github.com/coffeecoproject/SmartCompact)：让 Claude Code、Codex、pi 的长会话在做完一件事之后提前压缩上下文，60 个任务实测花费降 44%、代码验收不受影响，本地运行，MIT 开源
+
+#### time410 - [Github](https://github.com/lintt76)
+* :white_check_mark: [Tikway](https://tikway.ai/)：面向开发者的多模型 AI API 接入服务，用统一 API Key 按 OpenAI、Anthropic、Gemini 协议配置请求地址，提供模型价格目录、中英文接入与排错教程和 Token 费用计算器，按使用量计费；第三方接入服务，非模型厂商官方 - [接入教程](https://tikway.ai/guides)
+* :white_check_mark: [Tikway API Examples](https://github.com/lintt76/tikway-examples)：Python 标准库调用与 Node.js SSE 流式示例，处理中文跨分块、CRLF、多行 data、流内错误和提前断流，附离线 Token 费用估算工具，无第三方依赖，MIT 开源；真实模型调用按服务价格计费
+
+### 2026 年 10 月 14 号添加
+
+#### kuxiaowo - [Github](https://github.com/kuxiaowo)
+* :white_check_mark: [WeChat ASR Bridge](https://github.com/kuxiaowo/wechat-asr-bridge)：把 Windows 微信语音识别接成兼容 OpenAI 的 ASR 接口，支持 WAV/MP3 和 JSON/文本输出；提供免安装窗口版，可选择音频并复制或保存识别结果；需安装并登录微信 4.1.13.65，音频经微信发送至微信服务端，属于版本限定的实验桥接器 - [下载与使用说明](https://github.com/kuxiaowo/wechat-asr-bridge/releases/tag/v0.2.0)
+
+#### lenoooin - [Github](https://github.com/lenoooin)
+* :white_check_mark: [Roblox GUI Maker](https://robloxguimaker.dev/)：一句话描述商店、HUD、背包或弹窗，生成最多 4 版 Roblox 游戏界面草图，附组件树和样式变量，桌面端和手机端同时预览，可用插件一键发送到 Roblox Studio；第一个 GUI 免费
+
+#### sunflower225 - [Github](https://github.com/sunflower225)
+* :white_check_mark: [Optio](https://jevai.website/zh)：类型化决策 API，传入文本或 JSON 和最多 8 个问题，返回带概率的单选、评分或是/否答案，用于工单分诊、模型路由、内容审核和 Agent 工具调用前的风险检查；浏览器 Playground 可免注册试用，注册送 5 额度，之后一次性购买额度包（不订阅、不过期）；独立运营的 Jev 调用网关，与 TypeSafe 无隶属关系，非开源 - [文档](https://jevai.website/docs)
+
+### 2026 年 10 月 13 号添加
+
+#### hen9xin - [Github](https://github.com/hen9xin)
+* :white_check_mark: [pan-transfer-bot](https://github.com/hen9xin/pan-transfer-bot)：夸克/百度网盘资源整理工具与 AI Agent Skill，粘贴分享链接即自动识别提取码、转存到自己网盘并按年/月/日归档、生成新分享链接，纯本地生成配套文案无需大模型 API；FastAPI + Web 界面，Docker 一键部署，附 SKILL.md 可供 Claude Code 调用，MIT 开源
+
+#### cf12436 - [Github](https://github.com/cf12436)
+* :white_check_mark: [AI SaaS Go](https://aisaasgo.org/)：AI API 中转站，一个 Key 调用 OpenAI、Claude、Gemini、Grok 等模型，兼容 OpenAI Chat Completions 与 Anthropic Messages 协议，支持原生 SSE 流式响应、按量计费与提示缓存，站点另设在线生图入口
+
+### 2026 年 10 月 12 号添加
+
+#### DustarCode - [Github](https://github.com/DustarCode)
+* :white_check_mark: [MakerEnd](https://makerend.com/console)：AI 模型 API 中转平台，一个 API Key 即可调用 GPT、Claude、Gemini、Grok 等对话模型与 Midjourney、Flux、Sora、Veo、可灵等图像视频模型，OpenAI 兼容接口，按量计费，支持支付宝 / 微信 / USDT 充值，注册或联系客服可领免费测试额度 - [价格列表](https://makerend.com/pricing)
+
+### 2026 年 10 月 11 号添加
+
+#### ls-open - [Github](https://github.com/ls-open)
+* :white_check_mark: [md-to-word](https://github.com/ls-open/md-to-word)：专为学术论文与企业研报打造的 Markdown 转 Word 确定性排版引擎与 AI Agent Skill。坚持内容与排版解耦，实现带编号公式绝对居中靠右、学术三线表跨页重复表头、双节独立页码、GB/T 7714-2015 参考文献与三道自动化质量门禁；导出的 docx 固定时间戳保证 Git 字节级一致；原生适配 Claude Code / Cursor / Windsurf，可一句话全流程代办交付 - [源码仓库](https://github.com/ls-open/md-to-word)
+
+#### GPTZZZ - [Github](https://github.com/gptzzz)
+* :white_check_mark: [GPTZZZ](https://gptzzz.ai/)：AI API 中转站，一个账号、一份余额调用 GPT、Claude、Gemini、DeepSeek、Grok、Qwen、MiMo 共 48 个模型；OpenAI 兼容 Base URL 填 `https://gptzzz.ai/v1`（OpenAI 分组支持 Chat Completions 与 Responses，Codex CLI 可接），Claude 分组走 Claude Messages 接口 `/v1/messages`；支付宝充值 ¥1 = $1、单笔 ¥10 起、按量计费，未用完余额可退；个人运营的独立第三方服务，非模型厂商官方 - [接入文档](https://gptzzz.ai/docs/)
+* :white_check_mark: [openai-compatible-checker](https://github.com/gptzzz/openai-compatible-checker)：OpenAI 兼容接口体检 CLI，一条命令检查任意中转站、自建网关或本地推理服务的模型列表、SSE 流式与 usage 块、工具调用、JSON 模式、Responses API（决定能否接 Codex）、图片输入、错误格式和首字延迟，输出脱敏的 JSON / Markdown 报告；单文件、只依赖 Python 标准库，也能作为 GitHub Action 定时跑；只检查协议兼容性，不证明模型真伪，MIT 开源
+
+### 2026 年 10 月 10 号添加
+
+#### MarchBeta2087 - [Github](https://github.com/MarchBeta2087)
+* :white_check_mark: [梦溪畅谈](https://github.com/MarchBeta2087/mengxi-llm-chat)：可自部署的 LLM 聊天 Web 应用，支持多模型与多 API Key 公私双轨管理调度、六维限流、插件系统、对话加密与盲索引搜索、审计日志与可定制界面 - [源码](https://github.com/MarchBeta2087/mengxi-llm-chat)
+
+#### ylv01(深圳) - [Github](https://github.com/ylv01)
+* :white_check_mark: [PromptHarbor](https://github.com/ylv01/prompt-harbor)：一句话描述任务，根据模型能力与社区反馈推荐最适合的模型。复杂项目可拆分任务并生成跨模型协作提示词，覆盖 Claude Opus 5.5、GPT-6.1 Sol 等
+
+#### huangy7(厦门) - [Github](https://github.com/huangy7)
+* :white_check_mark: [outline-skill](https://github.com/huangy7/outline-skill)：专为 AI 编程智能体（Claude Code、Antigravity、Cursor 等）打造的 Outline 知识库 Agent Skill 与协同工具。遵循 agentskills.io 标准，赋予各类智能体原生读写、检索与智能格式化 Outline 文档的能力；内置排版护栏（自动去除冗余标题、生成标准 Callout 提示块），支持 MCP 与零依赖 Node.js 客户端双引擎架构，完全开源免费 - [源码仓库](https://github.com/huangy7/outline-skill)
+
+#### shaguocgl - [Github](https://github.com/shaguocgl)
+* :white_check_mark: [buffTerm](https://github.com/shaguocgl/buff-term)：AI Agent 加持的 SSH/SFTP 桌面管理工具，自然语言运维服务器；可对外暴露 MCP 服务供其他 AI 工具调用（macOS/Windows，MIT）- [官网](https://shaguocgl.github.io/buff-term-site/)
+
+### 2026 年 10 月 9 号添加
+
+#### MASAKA AI - [Github](https://github.com/masakaai)
+* :white_check_mark: [Jet Browser](https://github.com/masakaai/jet-browser)：给 AI Agent 嵌入的轻量浏览器运行时，一个 Docker 容器运行一个 WPE WebKit 会话，通过有序 JSONL 执行原生鼠标键盘输入、DOM 检查与截图；不绑定模型、账号或托管控制面，Apache-2.0 开源，提供 Codex / Claude Code Skill 与 GitHub Action 验收 - [基准方法与原始数据](https://github.com/masakaai/jet-browser/blob/main/docs/benchmarks.md)
+
+#### LinkAGI - [Github](https://github.com/16871233)
+* :white_check_mark: [LinkAGI](https://api.linktoagi.com/)：面向开发者的 AI API 聚合服务，提供 OpenAI、Anthropic 与 Gemini 风格的接口；控制台可创建独立 API Key、查看模型价格和调用日志，支持人民币按量计费 - [使用文档](https://docs.linktoagi.com/)
+
+### 2026 年 10 月 8 号添加
+
+#### ZhongQuinnKing - [Github](https://github.com/ZhongQuinnKing)
+* :white_check_mark: [拾级 Shiji](https://github.com/ZhongQuinnKing/shiji)：装进 Claude、豆包等 AI 助手的成长顾问技能包，从高三填志愿到入职三年，152 篇中文文档覆盖高考、大学、考研、考公、求职、职场、论文、研究生、留学、学习、人际与生活、特殊通道十二条线，另有 8 个可直接填写的简历模板；把仓库拷进 skills 目录即用，代码 MIT、内容 CC BY-NC-ND 开源
+* :white_check_mark: [采诗 Caishi](https://github.com/ZhongQuinnKing/caishi)：给 AI 用的中文互联网能力包，让 Claude Code 这类能跑命令行的助手直读抖音、小红书、B站、微博、知乎、公众号、头条等 33 个中文平台（满配 40），一条命令装好；不爬虫、不做批量，所有请求都走你自己已登录的浏览器会话，只读
+* :white_check_mark: [夜诵 Yesong](https://github.com/ZhongQuinnKing/yesong)：离线信息哨兵，终端关了也替你值守，按你列的清单每 6 小时扫一次热榜、GitHub 动态、新项目雷达与任意网页变化，攒进收件箱，AI 下次上线自动读完；只读、不调用任何大模型，采集零 token 成本，macOS 一条命令装好开机自跑
+* :white_check_mark: [玉尺 Yuchi](https://github.com/ZhongQuinnKing/yuchi)：给中文写作量呼吸的一把尺，文章、诗同等对待：文章看句长节奏、套话与虚词密度、结构推进，诗做逐字平仄标注、近体诗格律检查、818 个词牌给谱对谱，另附十四篇写作教材；命令行（零依赖）、网页、AI 技能包三入口即用，代码 MIT、内容 CC BY-NC-ND 开源
+
+### 2026 年 10 月 7 号添加
+
+#### Hongshuo Wang(北京) - [Github](https://github.com/hongshuo-wang)
+* :white_check_mark: [Agent Usage](https://github.com/hongshuo-wang/agent-usage-desktop/releases)：免费开源的桌面应用，在本地查看 Claude Code、Codex 等 AI 编程工具的 Token 用量、估算费用和会话记录 - [更多介绍](https://github.com/hongshuo-wang/agent-usage-desktop/blob/main/README.zh-CN.md)
+
+### 2026 年 10 月 6 号添加
+
+#### qybaihe - [Github](https://github.com/qybaihe)
+* :white_check_mark: [mu](https://github.com/qybaihe/mu)：编程 Agent，带一个判定内核：30 多个决策点上的例行判断交给小而快的判定模型 Jev，比如长工具输出里哪些片段进上下文、被规则拦下的命令是不是用户要的、网页和 MCP 结果里有没有冲着模型来的指令，大模型只管干活，每次判断都记进本地账本；基于 pi 与 AionUi，命令行 `npm i -g mu-agent` 即用，桌面端支持 macOS / Windows / Linux，MIT 开源（桌面端 Apache-2.0） - [中文说明](https://github.com/qybaihe/mu/blob/main/docs/readme/README.zh-CN.md)
+
+### 2026 年 10 月 5 号添加
+
+#### coffeecoproject - [Github](https://github.com/coffeecoproject)
+* :white_check_mark: [LayerMap](https://github.com/coffeecoproject/layermap)：给编程 Agent 用的代码调用关系地图，一次调用把某个函数的调用方一路追到 HTTP 接口，回答「改这里会影响哪些接口」；用各语言自己的编译器解析 TypeScript/JavaScript、Go、Python、Java，完全本地运行不上传代码；提供 MCP 服务与插件，已收录在官方 MCP Registry，Apache-2.0 开源 - [中文说明](https://github.com/coffeecoproject/layermap/blob/main/README.zh-CN.md)
+
+#### saime428 - [Github](https://github.com/saime428)
+* :white_check_mark: [AI Code Usage Tray](https://github.com/saime428/ai-code-usage-tray)：Windows 托盘用量监视器，一处看 Claude Code、Codex、Grok CLI、Antigravity、OpenCode 的 token 用量和金额，Claude、Codex、Grok 的官方额度在贴边悬浮条上常驻显示，另有跨工具的按天、项目、模型用量报表；只读本机会话记录，不上传用量数据，MIT 开源，提供 Windows 安装包 - [中文说明](https://github.com/saime428/ai-code-usage-tray/blob/main/README.zh-CN.md)
+
+### 2026 年 10 月 4 号添加
+
+#### jaychouchannel - [Github](https://github.com/jaychouchannel)
+* :white_check_mark: [夜观天象 Astrolabe](https://github.com/jaychouchannel/Astrolabe)：OKX 行情与账户监控面板，实时展示币价、K 线、资金费率和自己持仓的未实现盈亏，行情剧烈波动、资金费率越阈或账户开平仓、权益变动时通过 Telegram 推送提醒；只观测不下单，无任何交易权限，不配 API Key 也能看公开行情 — 需自建 Python 服务，MIT 开源
+
+#### SandGrid(北京) - [Github](https://github.com/lcy362), [博客](https://lichuanyang.top/)
+* :white_check_mark: [Flint Skills Manager](https://flint.lichuanyang.top)：本地优先的 AI Skills 资产管理器，把分散在 Claude Code 等工具里的 skill 收进可版本化的本地资产库，统一去重、打标签、按预设部署到各个 agent，换工具资产也带得走；`npx flint-skills-hub` 即用，支持 macOS / Windows / Linux，MIT 开源
+
+### 2026 年 10 月 3 号添加
+
+#### oisano11 - [Github](https://github.com/oisano11)
+* :white_check_mark: [中转塔台 Relay Tower](https://github.com/oisano11/relay-tower)：上游半夜涨价、主调账号出故障时不用盯后台，自动提醒、自动切换，手机 Telegram 一键切线；MIT 开源，Docker 一键部署
+
+#### Jack - [Github](https://github.com/jcaiagent7143-ui)
+* :white_check_mark: [LinkDigest](https://linkdigest.dev/zh)：给 AI Agent 用的小红书 / 抖音链接读取器，一次调用把链接变成文字：小红书图文笔记逐图 OCR、视频带时间戳逐字稿和画面文字，可选爆款拆解（引用逐字核对原文）；远程 MCP 一行接入 Claude Code / Cursor / Cherry Studio，也有 REST API；注册送 10 积分，之后按量付费（支持支付宝）；不支持 B站 - [开源客户端与接入说明](https://github.com/jcaiagent7143-ui/linkdigest-mcp)
+
+### 2026 年 10 月 1 号添加
+
+#### AmethystineAlpaca - [Github](https://github.com/AmethystineAlpaca)
+* :clock8: [Speech Wingman](https://github.com/AmethystineAlpaca/speech-wingman)：离线 Mac 语音提醒助手，本机识别中英混说并逐条检查自定义规则，悬浮按钮控制监听；沙盒无网络权限，不自动保存录音，Apple Silicon 源码预览需自行构建 - [构建与使用说明](https://github.com/AmethystineAlpaca/speech-wingman#getting-started)
+
+### 2026 年 9 月 30 号添加
+
+#### Owaid0723666 - [Github](https://github.com/Owaid0723666)
+* :white_check_mark: [onomeo](https://onomeo.com/zh)：兼容 OpenAI 的 AI 接口聚合站，一把密钥调用 DeepSeek、GLM、Gemini、Qwen 等约 30 个免费模型，免费模型按次数计（每个账号每 5 小时 30 次），网页里也能直接对话和画图；Claude、GPT 等大模型按量付费（美元余额，5 美元起充）；目前是公测阶段，不保证所有功能都能正常使用，正在大量收集反馈，欢迎提
+
+### 2026 年 9 月 29 号添加
+
+#### Evan - [Github](https://github.com/EdwinjJ1)
+* :white_check_mark: [回声 echo agent](https://echoagent.dev/zh/)：Mac 上的语音 AI Agent，任何应用里按 Fn+Space 说一句话，交给本机的 Claude Code 或 Codex 在后台执行，语音在本机识别
+
+### 2026 年 9 月 28 号添加
+
+#### Yuesen - [Github](https://github.com/sdyuyouth)
+* :white_check_mark: [AgentHop](https://github.com/sdyuyouth/agenthop)：让两个 AI Agent 直接对话的开源工具，一个配对码连上两台没有公网地址的电脑，端到端加密、中继只转发密文，作为 MCP 接进 Claude Code、Codex、Cursor、Gemini CLI 等
+
+### 2026 年 9 月 27 号添加
+
+#### Finderchangchang - [Github](https://github.com/Finderchangchang)
+* :white_check_mark: [精酿 BrewReel](https://github.com/Finderchangchang/brewreel)：竖版宣传片生成 Agent Skill，写一份产品简报，DeepSeek 等低成本模型只写分镜 JSON，现成 Remotion 组件在本地渲染 1080×1920 成片，内置广告法和 6 个行业的合规校验、代码合成配乐，可装进 Claude Code / Codex，Apache-2.0 开源，目前是预览版 - [更多介绍](https://brewreel.com)
+
+#### Eternal-Wanderer-Vegetable - [Github](https://github.com/Eternal-Wanderer-Vegetable)
+* :white_check_mark: [Stella_project](https://github.com/Eternal-Wanderer-Vegetable/Stella_project)：可一键部署的 QQ 群拟人化 AI Chat Agent，通过使用极小上下文窗口，原生支持本地小参数语言模型/在线大参数语言模型并节约花费，兼容 Astrbot 插件生态
+
+#### JiangShu - [Github](https://github.com/Health-525)
+* :white_check_mark: [CourseRaptor](https://github.com/Health-525/courseraptor)：一句话查课表、成绩、考试和教务通知的本地校园 AI 助手，终端/网页/QQ 机器人三个入口，登录凭证 AES-256-GCM 加密存本机、零遥测，内置免账号离线演示（虚构数据）先看效果再配置；目前适配南京工业大学，学校适配层开放共建 - [在线落地页](https://health-525.github.io/courseraptor)
+
+### 2026 年 9 月 25 号添加
+
+#### Hao Du - [Github](https://github.com/yxcit)
+* :white_check_mark: [YXC Code](https://app.yxcit.com/zh)：iOS 应用源码商城，按分类查看功能、截图和 App Store 链接，比较源码包及商业许可后选择可定制的项目起点；源码付费，支持中英文
+
+#### Leexunhuan743 - [Github](https://github.com/Leexunhuan743)
+* :white_check_mark: [SyncClipboard CfServer](https://github.com/Leexunhuan743/SyncClipboardCfServer)：SyncClipboard 官方服务端的 Cloudflare Workers 复刻实现，官方客户端零改动即可连接，免服务器、按量计费，自带 Web 历史管理界面与回收站
+
+### 2026 年 9 月 24 号添加
+
+#### xqliu - [Github](https://github.com/xqliu)
+* :white_check_mark: [Orbi](https://orbi.build/zh/?ref=1c7-2609)：自托管的 AI 编程 agent，给 GitHub Issue 打上 `ai-ready` 标签，它在独立 worktree 里写代码、开 PR，再另开一个评审会话对照 Issue 验收项审查，评审通过才合并并打 tag 发版；以 AGPL-3.0 开源，自托管免费，也有托管版 Orbi Cloud - [GitHub 仓库](https://github.com/orbi-build/orbi)
+
+#### KKKK - [Github](https://github.com/erickkkyt)
+* :white_check_mark: [JEVAPI.IO](https://jevapi.io/)：提供免费的 JEV API
+
+#### jnMetaCode - [Github](https://github.com/jnMetaCode)
+* :white_check_mark: [ShellWard](https://jnmetacode.github.io/shellward/)：一行命令体检 AI 项目的合规红线（数据出境、硬编码密钥、个人信息暴露），映射到网安法/PIPL/等保2.0 并给出评分，零依赖开源
+* :white_check_mark: [tracelet](https://github.com/jnMetaCode/tracelet)：AI Agent 的本地调试器，实时看执行树里的每次 LLM 调用与工具调用，还能把两次运行逐步对齐找出差异
+* :white_check_mark: [engram](https://github.com/jnMetaCode/engram)：索引笔记、PDF、网页，然后用一句话召回，结果精确到 文件:行 和日期，全程不出本机
+* :white_check_mark: [skillet](https://github.com/jnMetaCode/skillet)：Claude 技能的包管理器，搜索、安装、锁版本、分享 SKILL.md，注册表就是仓库里的一个 JSON 文件
+
+### 2026 年 9 月 20 号添加
+
+#### SocAI - [Github](https://github.com/socai-io)
+* :white_check_mark: [Jev Social](https://github.com/socai-io/jev-social)：开源、本地优先的社交媒体研究 Agent；Jev 逐步选择搜索、打开帖子与评论、下载视频等操作，socai CLI 在本机真实 Chrome 中执行，并将 Instagram、TikTok、LinkedIn 证据流式整理为带来源链接的研究报告 - [在线说明与演示](https://socai-io.github.io/jev-social/)
+
+#### noopyjie1 - [Github](https://github.com/noopyjie1)
+* :clock8: [codePro-cli](https://codepro.wiki/)：Codex CLI 桌面工作台，用顶部灵动岛、项目列表和会话卡片整理多个编程会话，官网提供无需登录的网页交互演示
+
+#### KyroX - [Github](https://github.com/wangxiaosu)
+* :white_check_mark: [Grok Canvas](https://github.com/wangxiaosu/grok-canvas)：图片与视频创作画布，登录自己的 Grok 账号并使用账号额度，连接参考图迭代画面、接着续生成视频，支持多画布管理，作品保存在本机，MIT 开源
+
+#### wuzhaohui - [Github](https://github.com/WuZhaohui1993)
+* :white_check_mark: [考试培训系统](http://43.156.229.191:9527/)：开源在线考试与培训系统，支持题库管理、固定或随机组卷、在线作答与成绩查询，将课程学习和考试考核集中在同一平台，需要自行部署 - [GitHub 仓库](https://github.com/WuZhaohui1993/exam-ruoyi-public)
+
+
+
+
+### 2026 年 9 月 19 号添加
+
+#### t4we fan - [Github](https://github.com/t4wefan)
+* :white_check_mark: [Agents Anywhere](https://www.agents-anywhere.com)：跨设备 AI Agent 工作台，在桌面、原生移动端和 Web 访问 Codex、Claude Code 与 DeepSeek Harness，管理多台设备上的会话、文件和终端，MIT 开源，支持自部署 - [源码与介绍](https://github.com/anywhere-labs/Agents-Anywhere)
+
+
+### 2026 年 9 月 18 号添加
+
+#### OrcaReplay 维护者 - [Github](https://github.com/Continuum-AI-Corp)
+* :white_check_mark: [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)：给 AI 编程 Agent 装的「飞行记录仪」，夹在 Agent 和模型厂商之间把提示词、工具调用和原始字节原样录成本地 trace，之后完全离线重放这次运行来复现失败现场，不花一分 token - [安装与使用](https://github.com/Continuum-AI-Corp/OrcaReplay#readme)
+
+
+### 2026 年 9 月 17 号添加
+
+#### Qiuner - [Github](https://github.com/Qiuner)
+* :white_check_mark: [Birdview](https://qiuner.github.io/birdview/)：AI 编程 Agent 的架构可视化 Skill，在改代码前生成项目架构图，标出计划触碰的模块、文件及对应源码证据；结果输出为无需部署的独立交互式 HTML，支持 Codex、Claude Code 与 DeepSeek Harness - [源码与安装说明](https://github.com/Qiuner/birdview)
+
+#### Qiu - [Github](https://github.com/Qiuner)
+* :clock8: [agent-isles](https://github.com/Qiuner/agent-isles)：把 AI 编程 Agent 放进可探索的 3D 小岛，让用户在与居民协作、完成真实项目的过程中，玩着玩着就学会使用 Agent；本地运行，开源，支持自带模型密钥 - [项目介绍](https://qiuner.github.io/agent-isles/)
+
+### 2026 年 9 月 14 号添加
+
+#### Wujerry - [Github](https://github.com/Wujerry)
+* :white_check_mark: [RepoAtlas](https://github.com/Wujerry/RepoAtlas)：本地优先的 AI 编程项目工作台，把散落的代码仓库、Claude Code / Codex / OpenCode / Cursor 等 8 个 Coding Agent 会话和常用开发任务集中管理；支持跨 Agent 搜索并恢复历史会话、运行构建/测试任务，数据保存在本机 — MIT 开源，提供 Windows 安装包
+
+#### jiangmuran - [Github](https://github.com/jiangmuran)
+* :white_check_mark: [vibepanel](https://github.com/jiangmuran/vibepanel)：自托管的 AI 编程会话面板，在浏览器和手机上同时管理多个 Claude Code / Codex 会话，面板重启或断网时 agent 照样运行
+
+#### juncheng-zheng - [Github](https://github.com/juncheng-zheng)
+* :white_check_mark: [MOVO](https://github.com/himovo/movo)：基于 DeepSeek Harness 构建的自托管企业级 Agent 平台，提供 Web 工作空间、企业知识库、深度研究、内容与文件生成、Skills、MCP、权限治理和 Docker 一键部署 - [官网](https://www.himovo.com)
+
+### 2026 年 9 月 12 号添加
+
+#### muzimu217 - [Github](https://github.com/muzimu217)
+* :white_check_mark: [DeliverKit](https://github.com/muzimu217/DeliverKit)：给 AI Agent 用的交付 MCP，把产品打包成各生态安装包的知识、可评审计划和真实产物串成一条链路——Linux deb/rpm/AppImage 已跑通真实构建和干净容器安装运行验证，Windows/macOS/鸿蒙按契约调度到对应 CI runner 产出；npx -y deliverkit-mcp 一条命令接入 Claude Code、Cursor 等客户端，MIT 开源 TypeScript - [站点与上手](https://muzimu217.github.io/DeliverKit/)
+
+### 2026 年 9 月 8 号添加
+
+#### yangzhou-chaofan - [Github](https://github.com/yangzhou-chaofan)
+* :white_check_mark: [TeamoRouter](https://teamorouter.cn)：多模型 AI API 中转网关，GPT-6 Astra / Claude / Gemini 用一个 Key 调用，Codex 和 Claude Code 改 base_url 即用，支持支付宝/微信充值、按量计费 - [Astra + Codex 配置教程](https://teamorouter.cn/blogs/gpt-6-astra-codex-cursor-setup)
+
+### 2026 年 9 月 6 号添加
+
+#### Tony Chen - [Github](https://github.com/zhiqingchen)
+* :white_check_mark: [RunWhale](https://github.com/zhiqingchen/RunWhale)：基于 DeepSeek Harness 的开源手机 AI 编程工具，描述需求后生成或修改 Web / Expo 项目，并在同一部手机上预览；支持导入 Git 仓库 - [iOS 下载](https://apps.apple.com/app/id6807644595)
+
+### 2026 年 9 月 3 号添加
+
+#### tans - [Github](https://github.com/tans)
+* :white_check_mark: [馒头新闻 Manto](https://manto.xin/)：给 AI Agent 使用的公共消息网络，Agent 可通过远程 MCP 直接创建账户、发布时效消息和公开搜索其他 Agent 的内容；无需密码，排序公式公开，前 100 位有效发布者拥有永久 2× 创始权重 - [源码与接入说明](https://github.com/tans/manto)
+
+### 2026 年 9 月 2 号添加
+
+#### KKKK - [Github](https://github.com/erickkkyt)
+* :white_check_mark: [BeatDesign](https://github.com/BeatAPI/BeatDesign)：开源、本地优先的 AI 媒体创作工作台，把 Canvas、短视频时间线、素材库和 MCP Agent 操作放进同一个本地项目
+
+#### 武晓亮 - [Github](https://github.com/wu1064442747)
+* :white_check_mark: [Sub2API](https://sub2api.ai-baby-dance.com/)：AI API 中转网关，按个人开发者到大规模商业应用的规模提供多档套餐，支持余额和订阅付费
+
+#### Dashu
+* :white_check_mark: [XiuRouter](https://router.xiu.ai/)：多协议模型 API 服务，分别提供 OpenAI Responses/Chat Completions、Anthropic Messages 和 Gemini GenerateContent；支持受限 API Key、Agent/开发工具接入与逐请求用量/费用记录
+
+### 2026 年 9 月 1 号添加
+
+#### LuckyAPI Team
+* :white_check_mark: [LuckyAPI](https://luckyapi.online/zh-cn)：多模型 AI API 服务，一个 Key 集成文本、图像和视频模型；支持的模型、请求格式兼容性、定价和用量以站内模型目录与文档为准。
+
+### 2026 年 8 月 30 号添加
+
+#### 619dev(天津) - [Github](https://github.com/619dev)
+* :white_check_mark: [PaperPhoneLite](https://github.com/619dev/PaperPhoneLite)：轻量级端到端加密即时通讯，React 19/TypeScript Web 客户端 + Rust/Axum 服务端，服务端和客户端均通过 Tor 完全隐藏 IP 地址
+
+### 2026 年 8 月 28 号添加
+
+#### the-beating-light-of-the-nail - [Github](https://github.com/the-beating-light-of-the-nail)
+* :white_check_mark: [DSH Meme Hub](https://github.com/the-beating-light-of-the-nail/dsh-meme-hub-site)：DeepSeek Harness 社区插件导航站的 Nuxt 3 全栈源码，收录 87 个插件、13 个分类、每日 star 排行榜与 Meme Zone 整活分区，中英双语，SSG 静态生成，开放投稿 — [线上站点](https://dsh-meme-hub.cdqyfdbymn.me/)
+
+### 2026 年 8 月 27 号添加
+
+#### KiddPhenix - [Github](https://github.com/KiddPhenix)
+* :white_check_mark: [WorkGround2](https://github.com/KiddPhenix/WorkGround2)：本地优先的 AI 工程工作台，一个 Go 二进制同时提供 CLI/TUI 与桌面端，支持 DeepSeek、Anthropic、OpenAI 兼容接口等多模型接入，内置 MCP 工具管理与改动回滚 — MIT 开源，提供 Windows、macOS、Linux 版本
+
+### 2026 年 8 月 22 号添加
+
+#### OrcaRouter
+* :white_check_mark: [OrcaRouter](https://www.orcarouter.ai)：OpenAI 兼容 AI 网关，一个 Key 接入 Claude/GPT/Gemini/DeepSeek 等模型，自适应路由 + 自动故障转移 + 推理零加价，同一端点内建 AI Agent 零信任安全（默认拒绝），无需改应用代码
+
+### 2026 年 8 月 21 号添加
+
+#### ckfanzhe - [Github](https://github.com/ckfanzhe)
+* :white_check_mark: [FlowWeaver](https://github.com/ckfanzhe/FlowWeaver)：基于 Agno 智能体框架的可视化编排工具，画布拖拽搭建流程，支持自然语言创建和编辑工作流，可导出为独立 Python 单文件
+
+### 2026 年 8 月 20 号添加
+
+#### SandBase - [Github](https://github.com/sandbaseai)
+* :white_check_mark: [SandBase CLI](https://github.com/sandbaseai/cli)：AI Agent 模型工具 CLI，一条命令为 Claude Code、Codex、Cursor 等 25 个客户端安装本地 MCP，发现并调用 2,000+ AI 模型与 API；运行前可查看参数和价格，运行后可追踪成本 — 开源 TypeScript
+
+### 2026 年 8 月 16 号添加
+
+#### Moresyl - [Github](https://github.com/Moresyl)
+* :white_check_mark: [DSH Studio](https://github.com/Moresyl/dsh-studio)：本地优先的跨平台 DeepSeek Harness 桌面管理器，用图形界面完成安装、启动停止、健康检查、日志查看与进程清理，提供 Windows、macOS 和 Linux 安装包
+
+### 2026 年 8 月 14 号添加
+
+#### 钟智强 - [Github](https://github.com/ctkqiang), [博客](https://ctkqiang.xin)
+* :white_check_mark: [NezhaGuard](https://github.com/ctkqiang/NezhaGuard)：实时 SIEM 系统，基于 Qt 6 / C++26 构建，通过 libpcap 抓包 + 日志监控 + 蜜罐三层采集，经协议解码、签名匹配到主动隔离实现网络威胁实时感知与自动阻断 — 支持 GUI、CLI 与 Docker / K8s 部署
+* :white_check_mark: [哪吒网络安全](https://github.com/ctkqiang/nezha_cyber)：DeepSeek 驱动的终端 UI 红队辅助工具，提供流式对话、函数调用工具编排和多智能体会话管理，内置哪吒角色人格与 Claude Code 风格的工具调用确认对话框 — Rust 单二进制
+* :white_check_mark: [小辣椒](https://github.com/ctkqiang/chilli)：Rust + Vue 构建的系统遥测与网络安全监控平台，集成实时进程监控、漏洞扫描、Docker 容器安全管理和数据库 IP 访问审计 — 自带 Web 仪表盘，Docker 一键部署
+* :white_check_mark: [ExploitDB 搜索工具](https://github.com/ctkqiang/exploitdb)：Java 命令行工具，抓取、展示并导出 Exploit-DB 公开漏洞数据，支持自定义爬取页数、中文表格对齐输出、增量更新和 CSV 导出
+* :white_check_mark: [灵取证](https://github.com/ctkqiang/LQZ)：Android 设备数据取证工具，提取通话记录、短信、照片视频、应用数据、WhatsApp 记录和浏览器历史等 14 类数据，面向执法部门与安全调查人员 — 基于 C++，配合 ADB 使用
+* :white_check_mark: [LingFlow](https://github.com/ctkqiang/LingFlow)：AI 聊天服务框架，基于 WebSocket 构建，通过 S3 动态技能加载为 LLM 注入可热更新的领域知识，采用事件溯源管理会话生命周期并支持流式响应（思考过程 + 最终回复）— Go 语言，多云部署
+* :white_check_mark: [NezhaCyberMCP](https://github.com/ctkqiang/NezhaCyberMCP)：MCP 服务器，桥接 Claude、Cursor、VS Code Copilot 等 AI 助手与持续更新的 CVE 漏洞数据库，通过 JSON-RPC 2.0 提供漏洞查询工具，支持本地、Lambda 和 SSE 三种运行模式 — Go 语言
+* :white_check_mark: [AWSFinOps](https://github.com/ctkqiang/AWSFinOps)：AWS 云成本优化定时任务引擎，由 EventBridge 按计划触发 Lambda 执行一整套成本治理流程，含预算管理、S3 Glacier 归档和多平台报告广播 — Go 语言，无状态
+* :white_check_mark: [AWSGateKeeper](https://github.com/ctkqiang/AWSGateKeeper)：AWS 安全自动化平台，将 GuardDuty、Inspector、Detective、IAM 和 CloudTrail 统一为事件驱动流水线，支持安全告警多渠道广播和 API 密钥中间件 — Go 语言，MIT 许可证
+* :white_check_mark: [AuthGate](https://github.com/ctkqiang/AuthGate)：多云统一认证网关，单 Go 二进制支持 AWS Lambda、阿里云 FC 和本地三种运行时，共享路由表并零配置切换环境，集成 JWT 密钥管理与端口适配器架构 — Docker 部署
+
+#### jaden-2026 - [Github](https://github.com/jaden-2026)
+* :white_check_mark: [SkillPort AI](https://github.com/jaden-2026/ai-base-saas)：多租户 AI 模型资源管理平台，集中管理模型服务商、模型目录和访问凭证，并通过租户、角色权限、套餐订阅与审计能力提供统一治理
+
+### 2026 年 8 月 12 号添加
+
+#### pang3fan-creator - [Github](https://github.com/pang3fan-creator)
+* :white_check_mark: [TANSHIP Template](https://tanship.app?utm_source=github&utm_medium=directory&utm_campaign=backlink)：TanStack Start SaaS 模板，集成身份验证、支付、数据库、邮件和 AI 工作流，基于 Cloudflare Workers 构建，支持中英双语和 34 套主题
+
+### 2026 年 8 月 11 号添加
+
+#### shawnxie94 - [Github](https://github.com/shawnxie94/infinitum)
+* :white_check_mark: [Infinitum](https://infinitum.shawnxie.top/)：基于 RSS 的自托管资讯聚合工作台，对日益膨胀的个人信息流进行必要但保守的预处理，提高信息获取效率
+
+#### Liu Zhening - [Github](https://github.com/hypervapor)
+* :white_check_mark: [Riffpad](https://riffpad.ai)：把 Claude Code、Codex 等 AI 编程 agent 加密同步到手机，躺床上也能看进度、一键批准操作、远程补一句新指令；代码和 API key 只留在你电脑上，端到端加密 - [GitHub](https://github.com/riffpad/riffpad)
+
+#### Brycetlm - [Github](https://github.com/Brycetlm)
+* :white_check_mark: [Codex Asset Forge](https://github.com/Brycetlm/codex-asset-forge)：本地优先的 2D 游戏素材批量生成工作台，复用本机 Codex CLI，让游戏项目直接用自然语言或 Markdown 交接素材需求并自动拆成可追踪的批量生图任务；支持按批次生成、逐项审核，并导出含文件路径和语义描述的 JSON，供 Godot、Unity 与后续开发 AI 直接接手 — 开源 macOS App
+
+### 2026 年 8 月 10 号添加
+
+#### Sameral - [Github](https://github.com/viewer12)
+* :white_check_mark: [Nexus Shell](https://nexusshell.app/?utm_source=github&utm_medium=referral&utm_campaign=chinese_independent_developer)：原生 macOS SSH 客户端，在一个应用中管理终端、双栏 SFTP、Docker 与服务器监控；还可通过 MCP 让 Claude Code、Codex 在可见终端中执行已授权操作，密码和私钥不会交给 Agent
+
+### 2026 年 8 月 9 号添加
+
+#### mebtte - [Github](https://github.com/mebtte)
+* :white_check_mark: [知了](https://github.com/mebtte/cicada)：支持自托管的多人音乐服务，类似私有版 Spotify，可在自己的服务器上管理、播放和分享音乐
+
+#### tiltwind(厦门) - [Github](https://github.com/tiltwind)
+* :white_check_mark: [c3(code creative center)](https://github.com/sequencestream/c3)：AI 开发工作台，集中管理并驱动多个 AI 智能体协作工作，涵盖意图开发工作流、SDD 规范驱动开发、多智能体话题讨论、交付管理、权限审批、定时任务、事件驱动自动化任务，支持 Claude Code、Codex、Cursor
+
+#### yvonuk - [推特](https://x.com/mcwangcn)
+* :white_check_mark: [Token Bargain](https://tokenbargain.dev)：经济实惠的大模型 API 服务，登录后可免费试用一天的 Token 额度
+
+### 2026 年 8 月 6 号添加
+
+#### AKAama(南京) - [Github](https://github.com/AKAama), [个人主页](https://ismyh.cn/)
+* :white_check_mark: [状态栏歌词](https://lyrics.ismyh.cn/)：自动读取 Apple Music 当前歌曲并显示同步歌词，支持歌词偏移调整、缓存和切换歌词源，数据全部在本机处理 — 开源的 macOS 菜单栏工具 - [GitHub](https://github.com/AKAama/lyrics-display)
+
+#### Bob Lee - [Github](https://github.com/bobleer)
+* :white_check_mark: [BitFun](https://github.com/GCWing/BitFun)：开源跨平台桌面 AI Agent，使用 Rust Runtime 在真实仓库中规划、修改、测试和提交代码，也能为任务生成带状态的 Mini App；支持自托管多端互联及 MCP、Skills、Hooks 扩展
+
+### 2026 年 8 月 4 号添加
+
+#### afetmin - [Github](https://github.com/afetmin)
+* :white_check_mark: [AgentPager](https://github.com/afetmin/AgentPager)：把闲置 Android 手机变成 AI Agent 专属状态终端，通过局域网实时同步 Codex Desktop/CLI 的运行状态，抬眼可见 Agent 在做什么、是否完成、何时需要批准 — 开源，支持 macOS 与 Windows
+
+### 2026 年 8 月 3 号添加
+
+#### 敢敢是只喵i - [GitHub](https://github.com/niejingchuan)
+* :white_check_mark: [百灵中枢 BailingHub](https://www.bailinghub.com/)：给已有商城、CRM、ERP 等业务系统接入能够查询数据和办理业务的 AI 助手，通过能力白名单、人工审批、幂等和审计控制退款、库存、订单等真实操作；开源并支持 Docker 私有化部署 - [源码](https://github.com/bailinghub/bailinghub)
+
+#### ysykzheng(武汉)
+* :white_check_mark: [InkTranslator.com](https://inktranslator.com/)：免费翻译 API，50 字符内免费使用，支持 39 种语言，无需注册账号 - [更多介绍](https://inktranslator.com/lang/zh)
+
+### 2026 年 8 月 2 号添加
+
+#### WtecHtec(深圳) - [Github](https://github.com/WtecHtec), [博客](https://iam.xujingyichang.top/)
+* :white_check_mark: [Berth](https://github.com/WtecHtec/berth)：macOS 轻量终端工作台，在同一窗口中管理多根目录、文件、Git 变更和多个终端
+
+### 2026 年 8 月 1 号添加
+
+#### XSong1205(沈阳) - [Github](https://github.com/XSong1205), [Bilibili](https://space.bilibili.com/68624054)
+* :white_check_mark: [TQSync](https://github.com/XSong1205/TQSync)：Telegram 与 QQ 群组双向消息同步机器人
+* :clock8: [Nocturn](https://github.com/XSong1205/Nocturn)：第三方网易云音乐客户端，基于 miuix 组件库（开发中）
+
 ### 2026 年 7 月 30 号添加
 
 #### Gang Qu - [GitHub](https://github.com/stomeonst)
@@ -499,10 +869,6 @@ Issue 和 PR 里偶尔有人提交一些不错的东西，但打开一看，不�
 ### 2025 年 4 月 25 号添加
 #### 西风逍遥游(湾区) - [Github](https://github.com/sunxfancy/SSUI)
 * :white_check_mark: [SSUI](https://github.com/sunxfancy/SSUI)：基于安全 Python 脚本的 stable diffusion AI 绘图工具，可以根据脚本中函数的类型自动生成 UI 界面，能方便快捷地复现其他用户的工作流
-
-### 2025 年 4 月 22 号添加
-#### zhtyyx(上海) - [Github](https://github.com/zhtyyx)
-* :white_check_mark: [ioe 库存管理系统](https://github.com/zhtyyx/ioe)：基于 Django 开发的综合性库存管理系统，专为零售商店、小型仓库和商品销售场所设计。系统提供了完整的商品管理、库存跟踪、销售记录、会员管理和数据分析功能，帮助企业高效管理库存和销售流程
 
 ### 2025 年 4 月 15 号添加
 #### daya0576(上海) - [博客](https://changchen.me)
